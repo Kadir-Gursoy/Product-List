@@ -45,7 +45,7 @@ const {setData} = useContext(ProductContext)
   return (
     <div className="text-center ">
       <h1>Product List</h1>
-      <div className="d-flex flex-wrap align-items-center justify-content-center  gap-2">
+      <div className="d-flex align-items-center justify-content-center  gap-2">
         <Button onClick={getData} variant="primary">
           ALL
         </Button>{" "}
