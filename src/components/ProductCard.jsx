@@ -23,7 +23,7 @@ const ProductCard = () => {
               <p className="card-text">{price}</p>
             </div>
             <div className="card-cover">
-              <h5 className="card-title">{title}</h5>
+              <h6 className="card-title">{title}</h5>
             </div>
           </div>
         );
